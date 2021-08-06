@@ -1,0 +1,176 @@
+body {
+    background-color: whitesmoke !important;
+}
+
+ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 4fr;
+   
+   }
+
+.profile {
+    margin-left: 71rem;
+}
+
+.nav-data {
+    margin-top: revert !important;
+
+}
+
+.sport {
+    padding-left: 0px !important;
+}
+
+.left {
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 5%);
+    height: 410px;
+    background-color: white;
+}
+
+.top-content {
+    padding-left: 100px;
+    padding-top: 31px;
+    padding-right: 100px;
+}
+
+.fire {
+    border-bottom: 1px solid lightgrey;
+    margin: 0 30px !important;
+    padding: 50px 0;
+}
+
+.fire img {
+    width: 100%;
+}
+
+.web {
+    width: 75%;
+}
+
+.web h3 {
+    margin-top: 0px;
+}
+
+.btn-first {
+    background: coral;
+    border: 1px solid coral;
+    color: white;
+    padding: 8px 15px !important;
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+}
+
+.complete {
+    margin-left: 30px;
+}
+
+.complete h4 {
+    margin-top: 40px;
+}
+
+.industry {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 19px;
+    margin: 10px 29px 15px;
+}
+
+.industry2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 19px;
+    margin-left: 28px;
+
+}
+
+.btn-second{
+    color: coral;
+    border: 1px solid coral !important;
+    background: white;
+}
+
+.coding {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.one{
+    font-size: 2em;
+    font-weight: bold;
+    color: coral;
+}
+
+.programs{
+    color: gray;
+    font-size: 1.3em;
+    margin-top: 6px;
+}
+
+.middle{
+    padding-bottom: 30px;
+    border-bottom: 1px solid silver;
+}
+
+.more{
+    margin-top: 30px;
+}
+
+.questions{
+    padding-left: 20px;
+    font-size: 1.1em;
+    word-spacing: .3em;
+    margin-bottom: 25px;
+    color: gray;
+}
+
+.right-info{
+    border-bottom: 1px solid silver;
+    padding-bottom: 40px;
+    margin-left: 5px !important;
+}
+
+.coding {
+    margin: 0px 20px 20px;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.btn-footer{
+    color: coral;
+    border: 1px solid coral !important;
+    background: white;
+    margin-top: 20px;
+}
+
+.mobile-btn{
+    display: flex;
+}
+.mobile-btn-buttons{
+    background: white;
+    border: 1px solid whitesmoke !important;
+}
+
+.right {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.right .row {
+    padding-left: 20px;
+}
+
+.footer {
+    margin-top: 40px;
+}
+
+.footer .col-md-4 {
+    padding-left: 60px;
+}
+
+.footer .col-md-4 .coding {
+    margin-left: 0px;
+}
