@@ -5,11 +5,8 @@ import './main.css'
 const MainContent = () => {
     return (
         <div>
-            <div className="row top-content">
-                
+            <div className="row top-content">     
                     <WebTrial />
-
-                
             </div>
 
 

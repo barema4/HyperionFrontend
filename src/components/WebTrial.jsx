@@ -39,7 +39,7 @@ const WebTrial = () => {
                     <div className="coding" >
                         Your coding jounery
                     </div>
-                    <div className="row">
+                    <div className="row total">
                         <div className="col-md-1 one">
                             1
                         </div>
@@ -48,7 +48,7 @@ const WebTrial = () => {
 
                         </div>
                     </div>
-                    <div className="row ">
+                    <div className="row total">
                         <div className="col-md-1 one">
                             4
                         </div>
@@ -67,7 +67,7 @@ const WebTrial = () => {
                     <p className="questions">We're already to help with questions you may have about our Bootcamps and Mentor Support</p>
                 </div>
                 <div className="row right-info">
-                    <div className="col-md-6">
+                    <div className="col-md-6 book-call">
                         <button className="btn btn-second col-md-12">Book a call</button>
                     </div>
                     <div className="col-md-6">
@@ -79,7 +79,7 @@ const WebTrial = () => {
         <div className="row footer">
             <div className="col-md-6">
                 <h3 className="coding">Trial another Bootcamp</h3>
-                <div className="row">
+                <div className="row footer-button-btn">
                     <div className="col-md-6 mobile-btn">
                         <img src={layer2} alt="fireSpot" width="90" height="60" />
                         <button className="btn mobile-btn-buttons">Mobile Developer Bootcamp</button>

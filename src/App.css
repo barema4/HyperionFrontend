@@ -9,7 +9,8 @@ body {
 }
 
 .nav-link,
-.navbar-brand, .nav-link:hover {
+.navbar-brand,
+.nav-link:hover {
   color: coral;
   cursor: pointer;
   font-weight: bold;
@@ -36,13 +37,16 @@ body {
   margin: auto;
 }
 
-.nav-item:nth-child(2) img{
+.nav-item:nth-child(2) img {
   border-radius: 50%;
 }
 
 .nav-item:nth-child(2) .nav-link {
   font-size: 1.1em;
   color: black;
+}
+.nav-right {
+  position: relative;
 }
 
 .dropdown-profile {
@@ -60,4 +64,19 @@ body {
 .dropdown-profile ul > li {
   padding-top: 10px;
   font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-right {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .navbar {
+    width: 538px;
+  }
+  .nav-right {
+    display: flex;
+  }
 }
